@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    scroll-snap-align: start;
+}
+section {
+    height:100vh;
+   
+}
+
+nav{
+    height:30px;
+}
+
+html{
+    scroll-snap-type: y  mandatory;
+}
